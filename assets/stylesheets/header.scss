@@ -34,3 +34,11 @@
 .header .picture-container {
     padding: 2em;
 }
+
+.header .picture.loaded {
+    transition-duration: .6s;
+}
+
+.header .picture:hover {
+    transform: rotateZ(360deg);
+  }

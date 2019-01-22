@@ -5080,6 +5080,12 @@ readers do not read off random characters that represent icons */
 .header .picture-container {
   padding: 2em; }
 
+.header .picture.loaded {
+  transition-duration: .6s; }
+
+.header .picture:hover {
+  transform: rotateZ(360deg); }
+
 .identities {
   background: transparent; }
 
@@ -5088,6 +5094,13 @@ readers do not read off random characters that represent icons */
 
 .identities .small-labels .group::before, .identities .small-labels .label::before {
   color: #333; }
+
+.identities blockquote {
+  border-left: 3px solid rgba(229, 131, 122, 0.8);
+  line-height: 1.8em;
+  padding-left: 1em;
+  margin-inline-start: 16px;
+  margin-inline-end: 16px; }
 
 .small-labels a {
   text-decoration: none; }
@@ -5102,7 +5115,7 @@ readers do not read off random characters that represent icons */
   color: #555; }
 
 .small-labels .label .link {
-  color: #a8d2ff; }
+  color: #0063cc; }
 
 .small-labels .group, .small-labels .label {
   display: inline-block;
@@ -5154,12 +5167,12 @@ readers do not read off random characters that represent icons */
   box-shadow: 0 0 0.2em 0.2em rgba(255, 255, 255, 0.05);
   transform: translate(1em, 1em); }
 
-.chem-element[element=sodium]::before {
-  content: '11';
+.chem-element[element=titanium]::before {
+  content: '22';
   font-size: .45em;
   vertical-align: -.5em; }
 
-.chem-element[element="sodium"]:hover {
+.chem-element[element="titanium"]:hover {
   background: #faa3a3; }
 
 body {

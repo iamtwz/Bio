@@ -22,5 +22,8 @@
     "gulp-rename": "^1.2.3",
     "gulp-sass": "^4.0.1",
     "unsemantic": "^1.2.3"
+  },
+  "dependencies": {
+    "npm": "^6.6.0"
   }
 }

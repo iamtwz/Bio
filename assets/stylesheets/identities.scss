@@ -9,3 +9,11 @@
 .identities .small-labels .group::before, .identities .small-labels .label::before {
     color: #333;
 }
+
+.identities blockquote {
+    border-left: 3px solid rgba(229, 131, 122, 0.8);
+    line-height: 1.8em;
+    padding-left: 1em;
+    margin-inline-start: 16px;
+    margin-inline-end: 16px;
+  }
